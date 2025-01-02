@@ -1,4 +1,4 @@
-# WordPress Test Project from AbeloHost: Cities, Countries, and Temperature Widget
+# WordPress Test Project for AbeloHost: Cities, Countries, and Temperature Widget
 
 This is a WordPress project that displays a table of countries, cities, and their current temperatures using custom post types and taxonomies. It fetches the temperature data from the `api.open-meteo.com` API instead of OpenWeatherMap.
 
