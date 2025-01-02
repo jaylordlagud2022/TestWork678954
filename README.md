@@ -9,19 +9,49 @@ Before setting up the project, ensure you have the following:
 - A WordPress installation set up.
 - Access to the WordPress theme directory for your child theme.
 
+Additionally, you can choose to set up the project using **Docker** for a local development environment.
+
+---
+
 ## Setup Instructions
 
 ### 1. Clone the Repository or Copy the Files
 
-- Clone or copy the project files into your WordPress theme directory
-- 
+- Clone or copy the project files into your directory.
+
 ### 2. Install WordPress
 
 If you haven't already installed WordPress, you can follow the official instructions to do so: https://wordpress.org/support/article/how-to-install-wordpress/
 
+Alternatively, if you prefer to set up the project using **Docker**, follow the Docker setup instructions below.
+
+---
+
+### Docker Setup (Optional)
+
+If you'd like to run the WordPress project in a local environment using **Docker**, follow these steps:
+
+1. **Install Docker**:
+   - Follow the installation guide for Docker: https://docs.docker.com/get-docker/
+
+2. **Clone the Docker WordPress Project**:
+   - Ensure the `docker-compose.yml` file is in your project directory.
+
+3. **Start the Containers**:
+   - Navigate to the project directory in your terminal and run the following command:
+
+    ```bash
+    docker-compose up -d
+    ```
+
+4. **Access WordPress**:
+   - Once the containers are running, open your browser and navigate to `http://localhost:8080` to complete the WordPress setup.
+
+---
+
 ### 3. Enable the Child Theme
 
-- In your WordPress admin dashboard, go to **Appearance > Themes** and activate the storefront-child theme.
+- In your WordPress admin dashboard, go to **Appearance > Themes** and activate the `storefront-child` theme.
 
 ### 4. Custom Post Type & Taxonomy
 
