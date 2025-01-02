@@ -137,7 +137,7 @@ function get_city_temperature($latitude, $longitude) {
 
     // Return temperature if available
     if (isset($data['current_weather']['temperature'])) {
-        return $data['current_weather']['temperature'] . '°C';
+        return $data['current_weather']['temperature'];
     }
 
     return 'N/A'; // Return N/A if the temperature data is not available
