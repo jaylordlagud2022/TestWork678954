@@ -13,9 +13,8 @@ Before setting up the project, ensure you have the following:
 
 ### 1. Clone the Repository or Copy the Files
 
-- Clone or copy the project files into your WordPress theme directory, preferably inside a child theme.
-- Ensure that the theme you are using is based on the Storefront theme (or any other theme you prefer) for compatibility.
-
+- Clone or copy the project files into your WordPress theme directory
+- 
 ### 2. Install WordPress
 
 If you haven't already installed WordPress, you can follow the official instructions to do so: https://wordpress.org/support/article/how-to-install-wordpress/
