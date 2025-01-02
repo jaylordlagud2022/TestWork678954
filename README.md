@@ -52,7 +52,7 @@ A live search feature allows users to search for cities by name. As users type a
 
 ### 9. API Integration
 
-This project uses the `api.open-meteo.com` API to fetch current weather data, specifically the temperature, for the cities based on their latitude and longitude. This API is used instead of the previously integrated OpenWeatherMap API.
+This project uses the `api.open-meteo.com` API to fetch current weather data, specifically the temperature, for the cities based on their latitude and longitude. This API is used instead of the OpenWeatherMap API.
 
 Here’s how we fetch the temperature:
 
